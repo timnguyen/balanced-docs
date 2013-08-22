@@ -50,6 +50,10 @@ many :ref:`support channels <overview.support>`.
      - `balanced-ios`_
      - `balanced-ios tests`_
      - `Ben Mills (Remear)`_
+   * - Android
+     - `balanced-android`_
+     - `balanced-android tests`_
+     - `Ben Mills (Remear)`_
    * - perl
      - `Business-BalancedPayments`_
      - `Business-BalancedPayments tests`_
@@ -75,12 +79,14 @@ many :ref:`support channels <overview.support>`.
 .. _balanced-node: https://github.com/balanced/balanced-node
 .. _balanced-node tests: https://github.com/balanced/balanced-node/tree/master/test
 
-
 .. _Business-BalancedPayments: https://github.com/Crowdtilt/Business-BalancedPayments
 .. _Business-BalancedPayments tests: https://github.com/Crowdtilt/Business-BalancedPayments/tree/master/t
 
 .. _balanced-ios: https://github.com/balanced/balanced-ios
 .. _balanced-ios tests: https://github.com/balanced/balanced-ios/tree/master/BalancedTests
+
+.. _balanced-android: https://github.com/balanced/balanced-android
+.. _balanced-android tests: https://github.com/balanced/balanced-android/tree/master/balanced-android-test/src/com/balancedpayments/android/test
 
 
 .. _Ben Mills (Remear): http://unfiniti.com
