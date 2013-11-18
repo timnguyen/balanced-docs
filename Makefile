@@ -22,7 +22,7 @@ I18NSPHINXOPTS = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) overview
 # common variable
 SITE_DIR = site
 
-.PHONY: clean spec-clean api-clean all
+.PHONY: clean spec-clean api-clean all overview
 
 all: spec api overview
 
@@ -58,13 +58,14 @@ api-clean:
 
 # overview
 
-overview/html/index.html: $(SITE_DIR)/static/css/styles.css $(SITE_DIR)/static/js/compiled.js
-	$(SPHINXBUILD) -b singlehtml -c overview overview overview/html
+#overview/html/index.html: $(SITE_DIR)/static/css/styles.css $(SITE_DIR)/static/js/compiled.js
+#	$(SPHINXBUILD) -b singlehtml -c overview overview overview/html
 
-$(SITE_DIR)/overview-gen.html: overview/html/index.html
-	mv overview/html/overview.html ${SITE_DIR}/overview-gen.html
+#$(SITE_DIR)/overview-gen.html: overview/html/index.html
+#	mv overview/html/overview.html ${SITE_DIR}/overview-gen.html
 
-overview: $(SITE_DIR)/overview-gen.html
+overview: 
+	$(SPHINXBUILD) -b dirhtml -d $(BUILDDIR)/doctrees -c overview overview overview/html
 
 overview-clean:
 	-rm -rf overview/html
