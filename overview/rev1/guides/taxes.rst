@@ -40,7 +40,7 @@ listing:
 
 - \- Their identifying information
 - \- Contact information
-- \- Balanced's address and phone number as the Filer, 4. but also indicating the Marketplace and Marketplace contact information
+- \- Balanced's address and phone number as the Filer, (see Section 4. of the 1099k form) but also indicating the Marketplace and Marketplace contact information
 - \- The Gross amount of 2013 sales 
 - \- Monthly breakdown of sales volume for 2013
 - \- A note for sellers to contact us to correct any discrepancies they notice
@@ -56,3 +56,8 @@ Taxable Income
 Funds credited to bank accounts associated to your marketplace are considered 
 income. Money in your marketplace escrow has not yet been collected by you as
 income and therefore does not need to be reported as such.
+
+Disclaimer
+-----------------
+This outlines Balanced's 1099k obligations. We strongly suggest that you consult a tax expert to make sure that your 1099 obligations
+are fully addressed.
